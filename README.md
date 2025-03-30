@@ -24,8 +24,9 @@ npm test
 npm start
 ```
 
-### Make a request
+### Make an empty commit
 ```bash
-curl http://localhost:3000
+git commit --allow-empty -m "Trigger notification"
+git push origin main
 ```
 # test job
